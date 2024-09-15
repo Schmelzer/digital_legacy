@@ -19,14 +19,14 @@ pip install -r requirements.txt
 
 	To generate a new BIP39 seed phrase (mnemonic) and derive the master password, simply run the script without any arguments:
 	```bash
-	python legacy_keygen.py
+	python digital_legacy.py
 	```
 
 2. Reusing an Existing Seed Phrase
 
 	If you already have a BIP39 seed phrase, pass it as command-line arguments. For example:
 	```bash
-	python legacy_keygen.py panic afraid alarm noodle correct proof skate duty during banner chuckle answer push firm remind march phone snake lawsuit increase hello place know ensure
+	python digital_legacy.py panic afraid alarm noodle correct proof skate duty during banner chuckle answer push firm remind march phone snake lawsuit increase hello place know ensure
 	```
 	The script will then regenerate the BIP39 seed and master password based on the provided words.
 
